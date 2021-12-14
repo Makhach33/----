@@ -1,0 +1,25 @@
+body {
+    background-color: aqua;
+}
+button{
+    padding: 10px 25px;
+    background-color: brown;
+    color: chartreuse;
+    border: none;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+@media(max-width:978px) {
+    div{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+@media(max-width:700px){
+    div{
+        flex-direction: column;
+    }
+}
+   
